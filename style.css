@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif; 
+}
+header{
+    background-image:url("https://i.pinimg.com/1200x/97/08/9b/97089b6385319d87d35da9edfba9a974.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.nav-links{
+   display: flex;
+    gap: 80px;
+    padding: 20px;
+}
+
+.nav-links.active{
+  display: flex;
+}
+
+nav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+   text-decoration: none;
+   color: white;
+}
+
+
+
+.hero{
+    padding-top: 200px;
+    padding-left: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+#about{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px 65px;
+    background: radial-gradient(circle, #26173B, transparent 60%);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: start;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.abtp{
+  font-size: 20px;
+}
+
+
+.mina{
+   border-radius: 13px;
+   border: 1px solid white;
+   box-shadow: #ffffff;
+   overflow: hidden;
+
+   
+}
+
+
+
+.abt{
+    font-size: 400px;
+    color: white;
+    align-items: center;
+}
+
+button{
+   padding: 12px 25px;
+   border: 1px solid rgb(134, 134, 248);
+   color: white;
+   cursor: pointer;
+   border-radius: 8px;
+   background: transparent;
+   margin-top: 20px;
+
+}
+
+.zero{
+  align-items: center;
+}
+
+.i{
+    font-size: 50px;
+    margin-top: +5px;
+}
+
+.wd{
+    font-size: 30px;
+    margin-top: +7px;
+}
+
+.d{
+    font-size: 15px;
+    margin-top: +5px;
+    color: rgb(255, 255, 255);
+}
+
+.abt{
+    font-size: 32px;
+    margin-top: -2;
+}
+
+
+.MP{
+  font-size: 35px;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.zinto{
+ font-size: 30px;
+}
+
+
+.kero{
+  font-weight: 100;
+  
+}
+
+#projects{
+    background: radial-gradient(circle, #26173B, transparent 60%);
+    background-color: #0B0C15;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.Wildbridge{
+   border-radius: 13px;
+   border: 4px solid;
+   box-shadow: #ffffff;
+   background: transparent;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    position: relative;
+    
+}
+
+.wildcard{
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  position: relative;
+}
+
+
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background:#0B0C15;
+   color: white;
+}
+.skills-section{
+    background: radial-gradient(circle, #26173B, transparent 60%);
+    background-color: #0B0C15;
+    height: 100vh;
+}
+
+.skills-section {
+   padding: 80px 20px;
+   text-align: center;
+   height: 100vh;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.subtitle {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.skill-card {
+  background: transparent;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  transition: 0.4s ease;
+  position: relative;
+  overflow: hidden;
+
+  animation: float 3s ease-in-out infinite;
+}
+
+.skill-card h3 {
+  color: #ffffffda;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  color: #ccc;
+  margin: 5px 0;
+}
+
+
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  
+}
+
+
+.skill-card::before {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:  transparent 60%;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin{
+  width: 35px;
+  height: 35px;
+
+}
+
+.github{
+  width: 35px;
+  height: 35px;
+  
+}
+
+.facebook{
+  width: 35px;
+  height: 35px;
+  
+}
+
+.icons{
+  display: flex;
+  margin-top: 17px;
+}
+
+footer{
+  background-color: white;
+  height: 30vh;
+  color: #26173B;
+
+  
+}
+
+.copyright{
+  text-align: center;
+  padding: 100px;
+  
+}
+
